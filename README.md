@@ -1,8 +1,7 @@
 # Taller de programación imperativa en Go
 
 **Curso:** Paradigmas de Programación - TEC  
-**Integrante 1:** [Nombre]  
-**Integrante 2:** [Nombre]  
+**Estudiante:** [Luis Fernando Mejías Mejías]  
 **Lenguaje:** Go
 
 ## Cómo correr el programa
@@ -19,33 +18,33 @@ Los datos de prueba están puestos directamente en `main`. El programa muestra l
 
 **Ejercicios 1 al 4**
 
-| Ejercicio | Resultado |
-|---|---|
-| 1. Intercambio | `8, -3` pasa a `-3, 8` |
-| 2. Estadísticas | Suma `4`, mínimo `-5`, máximo `7`, negativos `2` |
-| 2. Recorrido inverso | `-5 7 0 -2 4` |
-| 3. Copia | Original `[4 -2 0 7 -5]`, copia `[99 -2 0 7 -5]` |
-| 4. Ordenamiento | `[-5 -2 0 4 7]` |
+| Ejercicio            | Resultado                                        |
+| -------------------- | ------------------------------------------------ |
+| 1. Intercambio       | `8, -3` pasa a `-3, 8`                           |
+| 2. Estadísticas      | Suma `4`, mínimo `-5`, máximo `7`, negativos `2` |
+| 2. Recorrido inverso | `-5 7 0 -2 4`                                    |
+| 3. Copia             | Original `[4 -2 0 7 -5]`, copia `[99 -2 0 7 -5]` |
+| 4. Ordenamiento      | `[-5 -2 0 4 7]`                                  |
 
 **Ejercicio 5: búsqueda de pares**
 
-| Arreglo | Objetivo | Resultado |
-|---|---|---|
-| `[-4 -1 0 2 5]` | `1` | `(-4, 5)` |
-| `[-4 -1 0 2 5]` | `8` | No existe |
-| `[0 0]` | `0` | `(0, 0)` |
-| `[3]` | `6` | No existe |
+| Arreglo         | Objetivo | Resultado |
+| --------------- | -------- | --------- |
+| `[-4 -1 0 2 5]` | `1`      | `(-4, 5)` |
+| `[-4 -1 0 2 5]` | `8`      | No existe |
+| `[0 0]`         | `0`      | `(0, 0)`  |
+| `[3]`           | `6`      | No existe |
 
 **Ejercicio 6: 3Sum**
 
-| Arreglo | Resultado |
-|---|---|
-| `[-1 0 1 2 -1 -4]` | `(-1, -1, 2)` y `(-1, 0, 1)` |
-| `[0 1 1]` | Ninguna terna |
-| `[0 0 0]` | Una terna: `(0, 0, 0)` |
-| `[0 0 0 0]` | Una terna: `(0, 0, 0)` |
-| `[-2 0 0 2 2]` | Una terna: `(-2, 0, 2)` |
-| `[0 0]` | Ninguna terna, porque faltan elementos |
+| Arreglo            | Resultado                              |
+| ------------------ | -------------------------------------- |
+| `[-1 0 1 2 -1 -4]` | `(-1, -1, 2)` y `(-1, 0, 1)`           |
+| `[0 1 1]`          | Ninguna terna                          |
+| `[0 0 0]`          | Una terna: `(0, 0, 0)`                 |
+| `[0 0 0 0]`        | Una terna: `(0, 0, 0)`                 |
+| `[-2 0 0 2 2]`     | Una terna: `(-2, 0, 2)`                |
+| `[0 0]`            | Ninguna terna, porque faltan elementos |
 
 **Ejercicio 7: máximos acumulados**
 
@@ -56,17 +55,17 @@ Con las alturas `[3 0 2 0 4]` se obtuvo:
 
 **Ejercicio 8: agua atrapada**
 
-| Alturas | Agua total |
-|---|---|
-| `[5]` | `0` |
-| `[0 1 2 3]` | `0` |
-| `[3 2 1 0]` | `0` |
-| `[2 2 2]` | `0` |
-| `[3 0 3]` | `3` |
-| `[3 0 2 0 4]` | `7` |
-| `[4 2 0 3 2 5]` | `9` |
-| `[0 1 0 2 1 0 1 3 2 1 2 1]` | `6` |
-| `[4 1 3 0 4]` | `8` (caso propio) |
+| Alturas                     | Agua total        |
+| --------------------------- | ----------------- |
+| `[5]`                       | `0`               |
+| `[0 1 2 3]`                 | `0`               |
+| `[3 2 1 0]`                 | `0`               |
+| `[2 2 2]`                   | `0`               |
+| `[3 0 3]`                   | `3`               |
+| `[3 0 2 0 4]`               | `7`               |
+| `[4 2 0 3 2 5]`             | `9`               |
+| `[0 1 0 2 1 0 1 3 2 1 2 1]` | `6`               |
+| `[4 1 3 0 4]`               | `8` (caso propio) |
 
 En el caso propio se eligió `[4 1 3 0 4]`. Las columnas de los extremos miden 4, entonces en el centro se acumulan 3, 1 y 4 unidades de agua. En total son 8.
 
